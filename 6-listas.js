@@ -13,3 +13,7 @@ listaDeDestinos.push(`Curitiba`);
 
 console.log("Destinos possíveis:");
 console.log(listaDeDestinos);
+
+listaDeDestinos.splice(1,1);
+console.log(listaDeDestinos);
+console.log(listaDeDestinos[1]);
